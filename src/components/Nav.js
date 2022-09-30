@@ -4,28 +4,40 @@ import { Link } from 'react-router-dom';
 export default class Nav extends Component {
   render() {
     return (
-        <nav className="navbar navbar-expand-lg ">
-        <div className="container-fluid nav-ctnr">
-          <a className="navbar-brand mx-4" href="/sydneydoemel-portfolio/" style={{color: 'black', fontWeight: 'bold', fontSize: '1.6rem'}}>Sydney Doemel</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              
-             
-                <li className="nav-item ddi mx-2"><Link className="nav-link" to="/sydneydoemel-portfolio/about" ><p className='color-text'>About</p></Link></li>
-              <li className="nav-item piano-link">
-                <Link className="nav-link active mx-2" to="/sydneydoemel-portfolio/portfolio"><p className='color-text'>Portfolio</p></Link>
-              </li>
-             
-              
-            </ul>
-             
-          
+      <>
+      <nav id="navbar-example2" className="navbar navbar-light bg-light">
+      <a className="navbar-brand" href="#">Navbar</a>
+      <ul className="nav nav-pills">
+        <li className="nav-item">
+          <a className="nav-link" href="#fat">@fat</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#mdo">@mdo</a>
+        </li>
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div className="dropdown-menu">
+            <a className="dropdown-item" href="#one">one</a>
+            <a className="dropdown-item" href="#two">two</a>
+            <div role="separator" className="dropdown-divider"></div>
+            <a className="dropdown-item" href="#three">three</a>
           </div>
-        </div>
-      </nav>
+        </li>
+      </ul>
+    </nav>
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+      <h4 id="fat">@fat</h4>
+      <p>...</p>
+      <h4 id="mdo">@mdo</h4>
+      <p>...</p>
+      <h4 id="one">one</h4>
+      <p>...</p>
+      <h4 id="two">two</h4>
+      <p>...</p>
+      <h4 id="three">three</h4>
+      <p>...</p>
+    </div>
+    </>
     )
   }
 }
