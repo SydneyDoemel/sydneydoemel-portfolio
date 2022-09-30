@@ -8,13 +8,13 @@ import Nav from './components/Nav';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename={process.env.PUBLIC_URL}>
     <div className="App">
     <Nav />
     <Routes>
-    <Route path='/home' element={<Home />}/>
-    <Route path='/about' element={<About />}/>
-    <Route path='/portfolio' element={<Portfolio />}/>
+    <Route path='/sydneydoemel-portfolio/home' element={<Home />}/>
+    <Route path='/sydneydoemel-portfolio/about' element={<About />}/>
+    <Route path='/sydneydoemel-portfolio/portfolio' element={<Portfolio />}/>
     </Routes>
       
     </div>
