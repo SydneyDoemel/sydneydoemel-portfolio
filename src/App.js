@@ -12,7 +12,7 @@ function App() {
     <div className="App">
     <Nav />
     <Routes>
-    <Route path='/sydneydoemel-portfolio/home' element={<Home />}/>
+    <Route path='/sydneydoemel-portfolio/' element={<Home />}/>
     <Route path='/sydneydoemel-portfolio/about' element={<About />}/>
     <Route path='/sydneydoemel-portfolio/portfolio' element={<Portfolio />}/>
     </Routes>
