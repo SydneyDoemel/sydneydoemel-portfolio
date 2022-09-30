@@ -8,7 +8,7 @@ import Nav from './components/Nav';
 
 function App() {
   return (
-    <BrowserRouter  basename={process.env.PUBLIC_URL}>
+    <BrowserRouter >
     <div className="App">
     <Nav />
     <Routes>
