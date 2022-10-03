@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/sydneydoemel-portfolio/static/css/main.d3e148dd.css",
-    "main.js": "/sydneydoemel-portfolio/static/js/main.a6dbce2c.js",
+    "main.js": "/sydneydoemel-portfolio/static/js/main.64e7e0af.js",
     "static/js/787.96fe67c1.chunk.js": "/sydneydoemel-portfolio/static/js/787.96fe67c1.chunk.js",
     "static/media/syd_portfolio_headshot.jpeg": "/sydneydoemel-portfolio/static/media/syd_portfolio_headshot.289a5fb1b45d343b4460.jpeg",
     "static/media/alex-perez-pEgsWN0kwbQ-unsplash.jpg": "/sydneydoemel-portfolio/static/media/alex-perez-pEgsWN0kwbQ-unsplash.e2069b50896c944112cb.jpg",
     "static/media/logo.svg": "/sydneydoemel-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/sydneydoemel-portfolio/index.html",
     "main.d3e148dd.css.map": "/sydneydoemel-portfolio/static/css/main.d3e148dd.css.map",
-    "main.a6dbce2c.js.map": "/sydneydoemel-portfolio/static/js/main.a6dbce2c.js.map",
+    "main.64e7e0af.js.map": "/sydneydoemel-portfolio/static/js/main.64e7e0af.js.map",
     "787.96fe67c1.chunk.js.map": "/sydneydoemel-portfolio/static/js/787.96fe67c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3e148dd.css",
-    "static/js/main.a6dbce2c.js"
+    "static/js/main.64e7e0af.js"
   ]
 }
