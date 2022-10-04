@@ -242,7 +242,7 @@ export default function Nav() {
         
        
       </div>
-      <div className="socialapp-video "><iframe src="https://www.youtube.com/embed/DeEwQOr1zkQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/W5aWunF0gkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div className='resume' id='resume'><h3 className='mt-5 '><a href='https://docs.google.com/document/d/1EaLQLKXT1sIyZYJKNwLOTLVlsX2vFOSo/edit?usp=sharing&ouid=116124271828497492486&rtpof=true&sd=true'>Go to resume</a></h3></div>
       </div>
