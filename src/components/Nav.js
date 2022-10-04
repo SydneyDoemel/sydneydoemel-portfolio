@@ -139,7 +139,7 @@ export default function Nav() {
               <a className="nav-link" href="/#">Contact</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#resume">Resume</a>
+              <Link className="nav-link" to='https://docs.google.com/document/d/1EaLQLKXT1sIyZYJKNwLOTLVlsX2vFOSo/edit?usp=sharing&ouid=116124271828497492486&rtpof=true&sd=true'>Resume</Link>
               </li>
           </ul>
          
