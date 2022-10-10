@@ -144,7 +144,7 @@ export default function Nav() {
           </ul>
          
           <div className="about-img">
-          <img className='about-img-tag' src={require('../imgs/DSC_0319[2753].JPG')} alt='...'/>
+          <img className='about-img-tag' src={require('../imgs/syd_portfolio_headshot.jpeg')} alt='...'/>
           </div>
           <div className="about-info">
           <h5 className='display-5 mt-3  name-header'>Sydney Doemel</h5>
@@ -242,7 +242,9 @@ export default function Nav() {
         
        
       </div>
+      <div className='socialapp-video'>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/W5aWunF0gkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
       </div>
       <div className='resume' id='resume'><h3 className='mt-5 '><a href='https://docs.google.com/document/d/1EaLQLKXT1sIyZYJKNwLOTLVlsX2vFOSo/edit?usp=sharing&ouid=116124271828497492486&rtpof=true&sd=true'>Go to resume</a></h3></div>
       </div>
