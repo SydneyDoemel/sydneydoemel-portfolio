@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/sydneydoemel-portfolio/static/css/main.4d205d0d.css",
-    "main.js": "/sydneydoemel-portfolio/static/js/main.6bc49841.js",
+    "main.js": "/sydneydoemel-portfolio/static/js/main.a693c145.js",
     "static/js/787.96fe67c1.chunk.js": "/sydneydoemel-portfolio/static/js/787.96fe67c1.chunk.js",
     "static/media/alex-perez-pEgsWN0kwbQ-unsplash.jpg": "/sydneydoemel-portfolio/static/media/alex-perez-pEgsWN0kwbQ-unsplash.e2069b50896c944112cb.jpg",
     "index.html": "/sydneydoemel-portfolio/index.html",
     "main.4d205d0d.css.map": "/sydneydoemel-portfolio/static/css/main.4d205d0d.css.map",
-    "main.6bc49841.js.map": "/sydneydoemel-portfolio/static/js/main.6bc49841.js.map",
+    "main.a693c145.js.map": "/sydneydoemel-portfolio/static/js/main.a693c145.js.map",
     "787.96fe67c1.chunk.js.map": "/sydneydoemel-portfolio/static/js/787.96fe67c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d205d0d.css",
-    "static/js/main.6bc49841.js"
+    "static/js/main.a693c145.js"
   ]
 }
