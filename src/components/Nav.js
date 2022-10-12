@@ -149,7 +149,7 @@ export default function Nav() {
           <ul className='contact-info-section'>
             <li><p className='subhead me-4'>Software Engineer</p></li>
             <li className='me-4'><a href='https://www.linkedin.com/in/sydney-doemel-1a4841227/'><h5><i className="fa-brands fa-linkedin"></i></h5></a></li>
-            <li><a href='https://www.instagram/syd.doemel'><h5><i className="fa-brands fa-instagram"></i></h5></a></li>
+            <li><a href='https://www.instagram.com/syd.doemel/'><h5><i className="fa-brands fa-instagram"></i></h5></a></li>
             
           </ul>
           <ul className='contact' id='contact'>
