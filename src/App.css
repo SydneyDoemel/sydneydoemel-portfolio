@@ -7,9 +7,7 @@
   position: relative;
   min-height: 100vh;
 }
-#resume{
-  color: rgb(130, 42, 108);
-}
+
 #content-wrap {
   padding-bottom: 5rem;    /* Footer height */
 }
@@ -164,9 +162,7 @@ iframe{
 a:hover{
   color: rgb(224, 74, 99);
 }
-/* #portfolio{
-  height: 100vh;
-} */
+
 .portfolio-btn{
   background-color: rgb(52, 83, 52);
   color: rgb(224, 74, 99);

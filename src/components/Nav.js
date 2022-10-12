@@ -1,7 +1,5 @@
 
-import { Component, useState } from 'react';
-
-
+import { useState } from 'react';
 
 
 export default function Nav() {
@@ -139,12 +137,12 @@ export default function Nav() {
               <a className="nav-link" href="/#">Contact</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#resume">Resume</a>
+            <a className="nav-link" href="https://docs.google.com/document/d/1EaLQLKXT1sIyZYJKNwLOTLVlsX2vFOSo/edit?usp=sharing&ouid=116124271828497492486&rtpof=true&sd=true">Resume</a>
               </li>
           </ul>
          
           <div className="about-img">
-          <img className='about-img-tag' src={require('../imgs/syd_portfolio_headshot.jpeg')} alt='...'/>
+          <img className='about-img-tag' src="https://drive.google.com/uc?export=view&id=16fgGjPwWQmFPGXaINPS8TspGYXRhZXNi" alt='...'/>
           </div>
           <div className="about-info">
           <h5 className='display-5 mt-3  name-header'>Sydney Doemel</h5>
@@ -219,7 +217,7 @@ export default function Nav() {
        
       </div>
       <div className="dispatched-video ">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/M_O1wxnhDDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M_O1wxnhDDo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
     
       <div className="socialapp-description ">
@@ -243,10 +241,10 @@ export default function Nav() {
        
       </div>
       <div className='socialapp-video'>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/W5aWunF0gkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/W5aWunF0gkU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
       </div>
-      <div className='resume' id='resume'><h3 className='mt-5 '><a href='https://docs.google.com/document/d/1EaLQLKXT1sIyZYJKNwLOTLVlsX2vFOSo/edit?usp=sharing&ouid=116124271828497492486&rtpof=true&sd=true'>Go to resume</a></h3></div>
+      
       </div>
      
       <div className='footer d-flex flex-row align-items-center justify-content-center'>
