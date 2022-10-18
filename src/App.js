@@ -1,13 +1,14 @@
 
-import './App.css';
+// import './App.css';
 
-import Nav from './components/Nav';
+import PortfolioView from './views/PortfolioView';
 
 function App() {
   return (
    
     <div className="App">
-    <Nav />  
+  
+    <PortfolioView />
     </div>
  
   );

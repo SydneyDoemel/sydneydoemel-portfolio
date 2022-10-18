@@ -1,8 +1,7 @@
-
 import { useState } from 'react';
+import '../styles/styles.css'
 
-
-export default function Nav() {
+export default function PortfolioView() {
   const [hover1, setHover1]=useState (false)
   const [hover2, setHover2]=useState (false)
   const [hover3, setHover3]=useState (false)
@@ -190,7 +189,7 @@ export default function Nav() {
         {hover4 && ( <div className='stack-description'><p className='sd sd-1'>Front-End, User interface <br></br>Back-End, Send and recieve data from Firebase Storage</p></div>)}
         {hover5 && ( <div className='stack-description'><p className='sd sd-1'>Back-End, Used in Flask to store user data and audio folder filing system, ORM used: SQLAlchemy</p></div>)}
         {hover6 && ( <div className='stack-description'><p className='sd sd-1'>Back-End, Used for storage of audio blobs</p></div>)}
-        {hover7 && ( <div className='stack-description'><p className='sd sd-1'>Used for creation of synthesizer and audio effects</p></div>)}
+        {hover7 && ( <div className='stack-description'><p className='sd sd-1'> Used for creation of synthesizer and audio effects</p></div>)}
        
       </div>
       <div className="pianobox-video ">
