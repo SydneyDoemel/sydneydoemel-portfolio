@@ -178,7 +178,7 @@ export default function PortfolioView() {
         <div onMouseOver={handleMouseOver1} onMouseOut={handleMouseOut1} className='stack-item me-3 mb-3'>JSX</div>
         <div  onMouseOver={handleMouseOver2} onMouseOut={handleMouseOut2} className='stack-item me-3 mb-3'>css3</div>
         <div onMouseOver={handleMouseOver3} onMouseOut={handleMouseOut3} className='stack-item me-3 mb-3'>Flask</div>
-          <div onMouseOver={handleMouseOver4} onMouseOut={handleMouseOut4} className='stack-item me-3 mb-3'>React JS</div>
+          <div onMouseOver={handleMouseOver4} onMouseOut={handleMouseOut4} className='stack-item me-3 mb-3'>ReactJS</div>
           <div onMouseOver={handleMouseOver5} onMouseOut={handleMouseOut5} className='stack-item me-3 mb-3'>PostgreSQL</div>
           <div onMouseOver={handleMouseOver6} onMouseOut={handleMouseOut6} className='stack-item me-3 mb-3'>Firebase</div>
           <div onMouseOver={handleMouseOver7} onMouseOut={handleMouseOut7} className='stack-item me-3 mb-3'>Tone.js</div>
@@ -203,7 +203,7 @@ export default function PortfolioView() {
         <div  onMouseOver={handleMouseOver8} onMouseOut={handleMouseOut8} className='stack-item si-1 me-3 mb-3'>JSX</div>
         <div onMouseOver={handleMouseOver9} onMouseOut={handleMouseOut9} className='stack-item si-2 me-3 mb-3'>css3</div>
           <div onMouseOver={handleMouseOver10} onMouseOut={handleMouseOut10} className='stack-item si-3 me-3 mb-3'>Flask</div>
-          <div onMouseOver={handleMouseOver11} onMouseOut={handleMouseOut11} className='stack-item si-4 me-3 mb-3'>React JS</div>
+          <div onMouseOver={handleMouseOver11} onMouseOut={handleMouseOut11} className='stack-item si-4 me-3 mb-3'>ReactJS</div>
           <div onMouseOver={handleMouseOver12} onMouseOut={handleMouseOut12} className='stack-item si-5 me-3 mb-3'>PostgreSQL</div>
           <div onMouseOver={handleMouseOver13} onMouseOut={handleMouseOut13} className='stack-item si-6  me-3 mb-3'>News API</div>
         </div>
@@ -228,7 +228,7 @@ export default function PortfolioView() {
         <div onMouseOver={handleMouseOver14} onMouseOut={handleMouseOut14} className='stack-item me-3 mb-3'>JSX</div>
         <div onMouseOver={handleMouseOver15} onMouseOut={handleMouseOut15} className='stack-item me-3 mb-3'>css3</div>
           <div onMouseOver={handleMouseOver16} onMouseOut={handleMouseOut16} className='stack-item me-3 mb-3'>Flask</div>
-          <div onMouseOver={handleMouseOver17} onMouseOut={handleMouseOut17} className='stack-item me-3 mb-3'>React JS</div>
+          <div onMouseOver={handleMouseOver17} onMouseOut={handleMouseOut17} className='stack-item me-3 mb-3'>ReactJS</div>
           <div onMouseOver={handleMouseOver18} onMouseOut={handleMouseOut18} className='stack-item me-3 mb-3'>PostgreSQL</div>
         </div>
         {hover14 && ( <div className='stack-description'><p className='sd sd-1'>Front-End, Structure component rendering</p></div>)}

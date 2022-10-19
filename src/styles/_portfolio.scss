@@ -1,0 +1,243 @@
+@import './variablesMixins';
+  .github{
+    color:$wineColor;
+  }
+
+  .fl-re{
+    color: rgb(187, 94, 164);
+    &hover{
+      color: $wineColor;
+      filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+    }
+  }
+
+  .stack-item:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(127, 127, 127));
+  }
+
+  .stack-description{
+    margin-top: 5px;
+  }
+
+  iframe{
+    width: 640px;
+    height: 360px;
+  }
+ 
+  .portfolio-btn{
+    background-color: rgb(52, 83, 52);
+    color: $salmonColor;
+    width: 230px;
+    border-radius: 25px;
+    margin-top: 10vh;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: .13rem;
+  }
+
+  a.btn.portfolio-btn:hover{
+    background-color: $wineColor;
+    color: rgb(31, 49, 31);
+  }
+
+  .container5 {  display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: column;
+    grid-template-areas:
+        "portfolio-header portfolio-header"
+        "pianobox-video pianobox-description"
+        "dispatched-video dispatched-description"
+        "socialapp-video socialapp-description"
+        "footer footer";
+    background-color: black;
+  }
+  
+  .portfolio-header { 
+    grid-area: portfolio-header; 
+    padding-top: 10vh;
+  }
+  
+  .pianobox-description { 
+    grid-area: pianobox-description;
+    padding-top: 6vh;
+    border-top: solid 1px $wineColor;
+    border-bottom: solid 1px $wineColor;
+    border-right: solid 1px $wineColor;
+    margin-bottom: 2vh;
+   }
+  
+  .pianobox-video { 
+    grid-area: pianobox-video; 
+    border-top: solid 1px $wineColor;
+    border-bottom: solid 1px $wineColor;
+    border-left: solid 1px $wineColor;
+    margin-bottom: 2vh;
+  }
+
+  .stack-item{
+    color: black;
+    background-color: white;
+    border: solid 1px white;
+    padding: 6px;
+    border-radius: 6px;
+  }
+
+  .dispatched-description { 
+    grid-area: dispatched-description;
+    padding-top: 6vh; 
+    border-top: solid 1px $wineColor;
+    border-bottom: solid 1px $wineColor;
+    border-right: solid 1px $wineColor;
+    margin-bottom: 2vh;
+  }
+  
+  .dispatched-video { 
+    grid-area: dispatched-video;
+    border-top: solid 1px $wineColor;
+    border-bottom: solid 1px $wineColor;
+    border-left: solid 1px $wineColor;
+    margin-bottom: 2vh;
+  }
+  
+  .socialapp-description { 
+    grid-area: socialapp-description;
+    padding-top: 6vh;
+    border-top: solid 1px $wineColor;
+    border-bottom: solid 1px $wineColor;
+    border-right: solid 1px $wineColor;
+  }
+  
+  .socialapp-video { 
+    grid-area: socialapp-video;
+    border-top: solid 1px $wineColor;
+    border-bottom: solid 1px $wineColor;
+    border-left: solid 1px $wineColor;
+   }
+  
+
+
+
+  @media screen and (max-width: 1200px) {
+    
+    .container5 {  display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1.5fr 1fr 1.5fr 1fr 1.5fr 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: column;
+      grid-template-areas:
+        "portfolio-header"
+        "pianobox-description"
+        "pianobox-video"
+        "dispatched-description"
+        "dispatched-video"
+        "socialapp-description"
+        "socialapp-video"
+        "footer";
+        margin-top: 1vh;
+    }
+    
+    .portfolio-header { 
+      grid-area: portfolio-header; 
+      padding-top: 10vh;
+      text-align: center;
+    }
+    
+    .pianobox-description { 
+      grid-area: pianobox-description;
+    }
+    
+    .pianobox-video { 
+      grid-area: pianobox-video; 
+    }
+    
+    .dispatched-description { 
+      grid-area: dispatched-description; 
+    }
+    
+    .dispatched-video{ 
+      grid-area: dispatched-video; 
+    }
+    
+    .socialapp-video { 
+      grid-area: socialapp-video;
+     }
+    
+    .socialapp-description { 
+      grid-area: socialapp-description; 
+    }
+    
+    .footer { 
+      grid-area: footer; 
+    }
+    .pianobox-description, .dispatched-description, .socialapp-description { 
+      padding: 3vh;
+      border-bottom: none;
+      border-left: solid 1px $wineColor;
+      margin: 0vh 5vh 0vh 5vh;
+      max-height: 1000px;
+     }
+    
+    .pianobox-video, .dispatched-video, .socialapp-video  { 
+      border-top: none;
+      border-right: solid 1px $wineColor;
+      margin: 0vh 5vh 5vh 5vh;
+      text-align: center;
+    max-height: 340px;
+    }
+    iframe{
+    height: 100%;
+    max-height: 340px;
+    width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 790px) {
+  
+    .pianobox-description, .dispatched-description, .socialapp-description { 
+      margin: -7vh 0vh 0vh 0vh;
+     }
+    
+    .pianobox-video, .dispatched-video, .socialapp-video  { 
+      margin: 0vh 0vh 0vh 0vh;
+    }
+
+    iframe{
+    height: 100%;
+    max-height: 340px;
+    width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 490px) {
+    .pianobox-description, .dispatched-description, .socialapp-description { 
+      margin: -10vh -3vh 0vh -3vh;
+      max-height: 1000px;
+     }
+     .pianobox-video, .dispatched-video, .socialapp-video  { 
+      margin: 0vh -3vh 0vh -3vh;
+    }
+  }
+  @media screen and (max-width: 414px) {
+    .pianobox-description, .dispatched-description, .socialapp-description {
+      margin: -16vh -3vh 0vh -3vh;
+     }
+     .pianobox-video, .dispatched-video, .socialapp-video  { 
+      margin: 0vh -3vh 0vh -3vh;
+    }
+  }
+  
+  @media screen and (max-width: 390px) {
+    .pianobox-description, .dispatched-description, .socialapp-description { 
+      margin: -16vh -3vh 0vh -3vh;
+     }
+     .pianobox-video, .dispatched-video, .socialapp-video  { 
+      margin: 0vh -3vh 0vh -3vh;
+    }
+   .container5{
+    margin-top: 10vh;
+   }
+  
+  }
+
